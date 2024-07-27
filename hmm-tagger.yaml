@@ -1,0 +1,19 @@
+name: hmm-tagger
+channels:
+- anaconda
+- defaults
+dependencies:
+- python=3.6.3
+- matplotlib
+- jupyter
+- nb_conda
+- nltk
+- pandas
+- pomegranate
+- pydot
+- pydotplus
+- scikit-learn
+- scipy
+- tqdm
+- pip:
+  - udacity-pa>=0.2
